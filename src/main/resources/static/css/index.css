@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    background: black;
+}
+
+header {
+    height: 100px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 13px;
+    list-style: none;
+}
