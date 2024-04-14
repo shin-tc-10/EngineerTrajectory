@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +7,7 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-<header>
-    <h1><a href="#">EngineerTrajectory</a></h1>
-    <nav>
-        <ul>
-            <li><a href="#">マイページ</a></li>
-            <li><a href="#">ログイン</a></li>
-            <li><a href="#">ログアウト</a></li>
-            <li><a href="#">新規会員登録</a></li>
-        </ul>
-    </nav>
-</header>
+<header th:include="header :: header"></header>
 <main>
     <div><img src="./image/shutterstock_1490541296.jpg" width="100%"></div>
     <section>
